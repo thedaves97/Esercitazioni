@@ -1,0 +1,14 @@
+Spearman index
+
+
+Wu & Palmer   0.2658905572436702
+Leakcock & Chodorow 0.19425762425145301
+Shortest Path   0.19425762425145301
+
+
+Pearson index
+
+
+Wu & Palmer 0.3006787109689233
+Leakcock & Chodorow    0.2574123220498923
+Shortest Path   0.161751828354118

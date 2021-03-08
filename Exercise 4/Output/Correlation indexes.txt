@@ -1,0 +1,11 @@
+Inter-rate agreement
+Spearman:  0.9890833526320215
+Pearson:  0.9946707999265841
+
+
+Evaluation between human annotation and scores retrieved
+Spearman:  [0.651593553664308]
+Pearson:  [0.6194867304711158]
+
+
+Cohen Kappa Score: 1.0
