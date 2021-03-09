@@ -1,3 +1,5 @@
+import string
+
 from nltk.corpus import stopwords
 import nltk
 
@@ -47,10 +49,9 @@ def aux_bag_of_word(text):
 
     text = text.lower()
     stop_words = set(stopwords.words('english'))
-    punct = {',', ';', '(', ')', '{', '}', ':', '?', '!', '‘'}
     wnl = nltk.WordNetLemmatizer()
     tokens = nltk.word_tokenize(text)
-    tokens = list(filter(lambda x: x not in stop_words and x not in punct, tokens))
+    tokens = list(filter(lambda x: x not in stop_words and x not in string.punctuation, tokens))
     return set(wnl.lemmatize(t) for t in tokens)
 
 
