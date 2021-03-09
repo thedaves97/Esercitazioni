@@ -86,7 +86,7 @@ if __name__ == '__main__':
     my_score = res
     my_score2 = res2
 
-    k = cohen_kappa_score(my_score, my_score)
+    k = cohen_kappa_score(my_score, my_score2)
     print("Cohen: ", k)
 
 
