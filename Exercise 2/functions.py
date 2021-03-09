@@ -120,7 +120,7 @@ def bag_of_word(bag, syn):
             ctx = get_context(s)
             ctx = list(filter(None, ctx))
 
-            score = len(set(bag).intersection(ctx))
+            score = len(set(bag).intersection(ctx)) + 1
             best_syn = s
             if score > max_score:
                 max_score = score
