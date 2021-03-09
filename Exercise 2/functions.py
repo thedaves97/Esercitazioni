@@ -130,7 +130,7 @@ def bag_of_word(bag, syn):
         ctx = get_context(syn[0])       #[0] necessario perchè altrimenti rimane in formato list e porta ad errori
         ctx = list(filter(None, ctx))
         #ctx = list(filter(" ", ctx))
-        score = len(set(bag).intersection(ctx))
+        score = len(set(bag).intersection(ctx)) + 1
         max_score = score
         best_syn = syn
 
