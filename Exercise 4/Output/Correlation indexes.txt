@@ -8,4 +8,4 @@ Spearman:  [0.651593553664308]
 Pearson:  [0.6194867304711158]
 
 
-Cohen Kappa Score: 1.0
+Cohen Kappa Score: 0.9202975557917109
